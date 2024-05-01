@@ -25,5 +25,6 @@ jobs:
                 python -m pip install --upgrade pip
                 python -m pip install pandas
                 python -m pip install requests
+                python -m pip install openpyxl
             - name: Run App
               run: python auctions_data.py
