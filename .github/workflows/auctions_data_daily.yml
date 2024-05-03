@@ -1,9 +1,7 @@
 name: Daily Auctions Data
 
 on:
-    push:
-    schedule:
-        - cron: '* * * * *'
+    workflow_dispatch:
 
 env:
     TELEGRAM_TOKEN: ${{secrets.TELEGRAM_TOKEN}}
